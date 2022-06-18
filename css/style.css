@@ -1,0 +1,41 @@
+
+img{
+position: absolute;
+width: 750px;
+height: 745px;
+left: 0px;
+top: 0px;
+
+background: url(.jpg), #D9D9D9;
+border-radius: 0px 100px 100px 0px;
+}
+
+.col.col-dua-row-satu{
+position: absolute;
+left: 850px;
+top: 50px;
+}
+.login {
+position: absolute;
+top: 0px;
+font-family: inherit;
+font-style: normal;
+font-size: 60px;
+line-height: 48px;
+color: #37B7FF;
+}
+p{
+position: relative;
+top: 70px;
+font-family: inherit;
+font-style: normal;
+font-size: 20px;
+color: #37B7FF;
+}
+.formulir{
+    position: relative;
+    top: 200px;
+}
+.col-auto{
+    padding-top: 20px;
+}
