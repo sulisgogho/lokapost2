@@ -39,3 +39,11 @@ color: #37B7FF;
 .col-auto{
     padding-top: 20px;
 }
+
+.navbar-nav {
+    background-color: #ffffff;
+    border-right: 2px; border-color: #37B7FF;
+}
+.sidebar-brand {
+    background-color: #ffffff;
+}
