@@ -1514,3 +1514,24 @@ ul.categories-list li {
         height: auto;
     }
 }
+
+    /* Buat sendiri :*/
+.menu .row .col a{
+    font-weight: bold; 
+    color:#5f5f5f;
+    text-decoration:underline;
+    margin-right: 20px;
+    
+}
+
+.menu .row .col .mm-active>a,
+.menu .row .col a:active,
+.menu .row .col a:focus,
+.menu .row .col a:hover {
+	color: #37B7FF;
+    text-decoration: underline;
+}
+
+.feather .feather-search {
+    margin-left: 50px;
+}
