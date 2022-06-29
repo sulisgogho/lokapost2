@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en" class="semi-dark">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- loader-->
+  <link href="assets/css/pace.min.css" rel="stylesheet" />
+  <script src="assets/js/pace.min.js"></script>
+
+  <!--plugins-->
+  <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+  <link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+  <link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
+
+  <!-- CSS Files -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <title>Utang</title>
+</head>
+
+<body>
+
+
+  <!--start wrapper-->
+  <div class="wrapper">
+
+    <!--start sidebar -->
+    <aside class="sidebar-wrapper" data-simplebar="true">
+      <div class="sidebar-header">
+        <div>
+          <img src="assets/images/logo/logo.svg" class="logo-icon" alt="logo icon">
+        </div>
+        <div class="toggle-icon ms-auto">
+          <ion-icon name="menu-sharp"></ion-icon>
+        </div>
+      </div>
+      <!--navigation-->
+      <ul class="metismenu" id="menu">
+        <li>
+          <a href="pages-to-do.html">
+            <div class="user">
+              <img src="assets/images/avatars/07.png" alt="">
+            </div>
+          </a>
+        </li>
+      <li>
+        <li>
+            <a href="dashboardadmin.html">
+              <div class="menu-title">Dashboard</div>
+            </a>
+          </li>
+        <li>
+          <a href="transaksi.html">
+            <div class="menu-title">Transaksi</div>
+          </a>
+        </li>
+        <li>
+          <a href="masterdata.html">
+            <div class="menu-title">Master Data</div>
+          </a>
+        </li>
+        <li>
+          <a href="pengaturan.html">
+            <div class="menu-title">Pengaturan</div>
+          </a>
+        </li>
+        <li style="margin-top:250px; position: relative;right: 80px;">
+          <a href="index.html" target="_blank">
+            <div class="menu-title">Log Out</div>
+          </a>
+        </li>
+      </ul>
+      <!--end navigation-->
+    </aside>
+    <!--end sidebar -->
+
+    <!-- start page content wrapper-->
+    <div class="page-content-wrapper">
+      <!-- start page content-->
+      <div class="page-content">
+
+        <!--start menu-->
+        <div class="menu">
+          <div class="row">
+            <div class="col" style="margin-left: 50px;margin-bottom:30px;">
+              <a href="penjualan.html">Penjualan</a>
+              <a href="pembelian.html">Pembelian</a>
+              <a href="piutang.html">Piutang</a>
+              <a href="utang.html" style="color:#37B7FF;">Utang</a>
+            </div>
+            <div class="col-3" style="margin-right:80px;">
+              <form class="d-flex" role="search">
+                <input class="form-control" type="search" placeholder="Searching" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+        <!--end menu-->
+
+        <!--start utang-->
+        <div class="row row-cols-1 row-cols-lg-2 row-cols-xxl-2" style="padding-left: 50px; padding-right:80px">
+          <div class="col">
+            <div class="card radius-10" style="background-color:#F7F8FA; box-shadow: 2px 2px 2px 2px rgba(02,01,01,0.2);width: 500px;margin-top: 20px;">
+              <div class="card-body">
+                <div class="d-flex align-items-center gap-2">
+                        <div class="utang">
+                          <p class="mb-0" style="font-size: small;">Supplier</p>
+                          <p class="mb-0" style="font-weight: bold;padding-bottom: 10px;">PT. ABCD</p>
+                          <p class="mb-0" style="font-size: small;">Alamat</p>
+                          <p class="mb-0" style="font-weight: bold;padding-bottom: 10px;">Jl. Pahlawan 1 Kec. Panti Kab Jember</p>
+                          <p class="mb-0" style="font-size: small;">Tanggal Pembayaran Pertama</p>
+                          <p class="mb-0" style="font-weight: bold;padding-bottom: 10px;">11 Juli 2022</p>
+                          <p class="mb-0" style="font-size: small;">Jumlah Pembayaran Pertama</p>
+                          <p class="mb-0" style="font-weight: bold;padding-bottom: 10px;color: #37B7FF;">Rp 20.000</p>
+                          <p class="mb-0" style="font-size: small;">Jumlah utang</p>
+                          <p class="mb-0" style="font-weight: bold;padding-bottom: 10px;color: red;">Rp 30.000</p>
+                          <button type="button" class="btn" style="background-color: #37B7FF;color: #F7F8FA; position: absolute;right:30px;bottom: 30px;">Proses utang</button>
+                        </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card radius-10" style="background-color:#F7F8FA; box-shadow: 2px 2px 2px 2px rgba(02,01,01,0.2);width: 500px;margin-top: 20px;">
+              <div class="card-body">
+                <div class="d-flex align-items-center gap-2">
+                        <div class="utang">
+                          <p class="mb-0" style="font-size: small;">Supplier</p>
+                          <p class="mb-0" style="font-weight: bold;padding-bottom: 10px;">PT. ABCD</p>
+                          <p class="mb-0" style="font-size: small;">Alamat</p>
+                          <p class="mb-0" style="font-weight: bold;padding-bottom: 10px;">Jl. Pahlawan 1 Kec. Panti Kab Jember</p>
+                          <p class="mb-0" style="font-size: small;">Tanggal Pembayaran Pertama</p>
+                          <p class="mb-0" style="font-weight: bold;padding-bottom: 10px;">11 Juli 2022</p>
+                          <p class="mb-0" style="font-size: small;">Jumlah Pembayaran Pertama</p>
+                          <p class="mb-0" style="font-weight: bold;padding-bottom: 10px;color: #37B7FF;">Rp 20.000</p>
+                          <p class="mb-0" style="font-size: small;">Jumlah utang</p>
+                          <p class="mb-0" style="font-weight: bold;padding-bottom: 10px;color: red;">Rp 30.000</p>
+                          <button type="button" class="btn" style="background-color: #37B7FF;color: #F7F8FA; position: absolute;right:30px;bottom: 30px;">Proses utang</button>
+                        </div>
+                    </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-lg-2 row-cols-xxl-2" style="padding-left: 70px; padding-right:100px">
+            <div class="col">
+              <div class="card radius-10" style="background-color:#F7F8FA; box-shadow: 2px 2px 2px 2px rgba(02,01,01,0.2);width: 500px;margin-top: 20px;">
+                <div class="card-body">
+                  <div class="d-flex align-items-center gap-2">
+                          <div class="utang">
+                            <p class="mb-0" style="font-size: small;">Supplier</p>
+                            <p class="mb-0" style="font-weight: bold;padding-bottom: 10px;">PT. ABCD</p>
+                            <p class="mb-0" style="font-size: small;">Alamat</p>
+                            <p class="mb-0" style="font-weight: bold;padding-bottom: 10px;">Jl. Pahlawan 1 Kec. Panti Kab Jember</p>
+                            <p class="mb-0" style="font-size: small;">Tanggal Pembayaran Pertama</p>
+                            <p class="mb-0" style="font-weight: bold;padding-bottom: 10px;">11 Juli 2022</p>
+                            <p class="mb-0" style="font-size: small;">Jumlah Pembayaran Pertama</p>
+                            <p class="mb-0" style="font-weight: bold;padding-bottom: 10px;color: #37B7FF;">Rp 20.000</p>
+                            <p class="mb-0" style="font-size: small;">Jumlah utang</p>
+                            <p class="mb-0" style="font-weight: bold;padding-bottom: 10px;color: red;">Rp 30.000</p>
+                            <button type="button" class="btn" style="background-color: #37B7FF;color: #F7F8FA; position: absolute;right:30px;bottom: 30px;">Proses utang</button>
+                          </div>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card radius-10" style="background-color:#F7F8FA; box-shadow: 2px 2px 2px 2px rgba(02,01,01,0.2);width: 500px;margin-top: 20px;">
+                <div class="card-body">
+                  <div class="d-flex align-items-center gap-2">
+                          <div class="utang">
+                            <p class="mb-0" style="font-size: small;">Supplier</p>
+                            <p class="mb-0" style="font-weight: bold;padding-bottom: 10px;">PT. ABCD</p>
+                            <p class="mb-0" style="font-size: small;">Alamat</p>
+                            <p class="mb-0" style="font-weight: bold;padding-bottom: 10px;">Jl. Pahlawan 1 Kec. Panti Kab Jember</p>
+                            <p class="mb-0" style="font-size: small;">Tanggal Pembayaran Pertama</p>
+                            <p class="mb-0" style="font-weight: bold;padding-bottom: 10px;">11 Juli 2022</p>
+                            <p class="mb-0" style="font-size: small;">Jumlah Pembayaran Pertama</p>
+                            <p class="mb-0" style="font-weight: bold;padding-bottom: 10px;color: #37B7FF;">Rp 20.000</p>
+                            <p class="mb-0" style="font-size: small;">Jumlah utang</p>
+                            <p class="mb-0" style="font-weight: bold;padding-bottom: 10px;color: red;">Rp 30.000</p>
+                            <button type="button" class="btn" style="background-color: #37B7FF;color: #F7F8FA; position: absolute;right:30px;bottom: 30px;">Proses utang</button>
+                          </div>
+                      </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        <!--end utang-->
+
+      </div>
+      <!-- end page content-->
+    </div>
+    <!--end page content wrapper-->
+
+
+    <!--Start Back To Top Button-->
+    <a href="javaScript:;" class="back-to-top">
+      <ion-icon name="arrow-up-outline"></ion-icon>
+    </a>
+    <!--End Back To Top Button-->
+
+
+    <!--start overlay-->
+    <div class="overlay nav-toggle-icon"></div>
+    <!--end overlay-->
+
+  </div>
+  <!--end wrapper-->
+
+
+  <!-- JS Files-->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+  <script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <!--plugins-->
+  <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+  <script src="assets/plugins/chartjs/chart.min.js"></script>
+  <script src="assets/plugins/chartjs/custom-script.js"></script>
+  <script src="assets/plugins/apexcharts-bundle/js/apexcharts.min.js"></script>
+  <script src="assets/js/index.js"></script>
+
+  <!-- Main JS-->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
